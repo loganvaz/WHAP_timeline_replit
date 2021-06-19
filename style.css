@@ -1,0 +1,85 @@
+#timeline {
+  width: 200em;//was 100, also change lineoftime
+  height: 25em;
+  position: relative;
+  top: 5em;
+  
+  //background-color: black;
+}
+.timeNote {
+  position: absolute;
+}
+
+.timeBox {
+//  float: left;
+  //overflow: hidden;
+ // position: absolute;
+   display: inline-block;
+   position: absolute;
+}
+#themes {
+  float: left;
+  width: 18em;
+  height: 10em;
+}
+#regions {
+  overflow: hidden;
+  float: left;
+}
+#lineOfTimeLine {
+  background-color: black;
+  height: 1em;
+  position: relative;
+  width: 200em; //however big timeline is
+}
+
+#selection_menu {
+  overflow: hidden;
+
+}
+#periods {
+  float: left;
+  overflow: hidden;
+}
+.HE {
+  border: 10em solid green;
+}
+
+.culture {
+  border: 10em solid red;
+}
+
+.social {
+  border: 10em solid blue;
+}
+
+
+
+
+
+.political {
+  border: 10em solid purple;
+}
+
+.economic {
+  border: 10em solid gold;
+}
+
+
+.technology {
+  border: 10em solid black;
+}
+
+
+
+
+
+
+.info {
+  border-width: 0em;
+}
+
+.selection {
+  border-width: .1em;
+  z-index: 1000;
+}
